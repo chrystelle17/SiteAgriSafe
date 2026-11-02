@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AgriSafe – Perturbateurs endocriniens et agriculture réunionnaise</title>
+  <meta name="description" content="AgriSafe : comment les perturbateurs endocriniens perturbent l'agriculture réunionnaise ?">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ================= HERO ================= -->
+  <div class="hero-wrap" id="accueil">
+    <header class="hero">
+      <div class="hero-overlay"></div>
+
+      <div class="logo" title="AgriSafe">
+        <!-- Mets ton logo dans images/logo.png (rond noir en attendant) -->
+        <img src="images/Logo.jpeg" alt="Logo AgriSafe">
+      </div>
+
+      <div class="hero-content">
+        <p class="hero-tag">AgriSafe</p>
+        <h1>Comment les perturbateurs endocriniens perturbent l'agriculture réunionnaise&nbsp;?</h1>
+      </div>
+    </header>
+  </div>
+
+  <a href="#temoignage" class="scroll-down" aria-label="Descendre vers le témoignage">
+    <svg viewBox="0 0 48 28" aria-hidden="true"><polyline points="4,4 24,24 44,4"/></svg>
+  </a>
+
+  <main>
+
+    <!-- ================= TÉMOIGNAGE ================= -->
+    <section class="section" id="temoignage">
+      <div class="container">
+        <div class="frame">
+          <h2 class="frame-title">Témoignage</h2>
+          <p class="frame-text">
+            [Texte de présentation] Rencontre avec un agriculteur réunionnais : il nous raconte son quotidien,
+            la manière dont il utilise les produits phytosanitaires et ce qu'il ressent face aux risques pour sa santé.
+          </p>
+          <div class="video-box">
+            <!-- Remplace par ta vidéo : videos/temoignage.mp4 -->
+            <video controls preload="metadata" poster="images/poster-temoignage.jpg">
+              <source src="videos/temoignage.mp4" type="video/mp4">
+              Votre navigateur ne supporte pas la lecture de vidéos.
+            </video>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= PARTIE SCIENTIFIQUE ================= -->
+    <section class="section section-tint" id="science">
+      <div class="container">
+        <h2 class="section-title">Partie scientifique</h2>
+        <p class="section-intro">
+          Un <strong>perturbateur endocrinien</strong> est une substance étrangère à l'organisme qui altère le
+          fonctionnement du système hormonal et peut entraîner des effets néfastes sur la santé.
+          Pour poser les bases, regardez cette courte vidéo.
+        </p>
+        <div class="video-box video-wide">
+          <!-- Remplace par ta vidéo : videos/intro-science.mp4 -->
+          <video controls preload="metadata" poster="images/poster-science.jpg">
+            <source src="videos/intro-science.mp4" type="video/mp4">
+            Votre navigateur ne supporte pas la lecture de vidéos.
+          </video>
+          <p class="video-caption">Vidéo posant les bases</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 1. Comprendre l'exposition -->
+    <section class="section" id="exposition">
+      <div class="container">
+        <h2 class="section-title"><span class="num">1</span> Comprendre l'exposition</h2>
+
+        <div class="carousel-area">
+          <button class="carousel-btn prev" id="prevBtn" aria-label="Diapositive précédente">&#10094;</button>
+
+          <div class="carousel" id="carousel">
+            <div class="slide active">
+              <img src="images/exposition-cutanee.jpg" alt="Exposition par la peau">
+              <div class="slide-caption">
+                <h3>Par la peau</h3>
+                <p>Préparation de la bouillie, épandage, nettoyage du matériel : les produits traversent la peau, surtout sans gants ni combinaison.</p>
+              </div>
+            </div>
+            <div class="slide">
+              <img src="images/exposition-respiratoire.jpg" alt="Exposition par inhalation">
+              <div class="slide-caption">
+                <h3>Par inhalation</h3>
+                <p>Gouttelettes et vapeurs pulvérisées sont respirées, surtout par vent ou dans les serres et hangars fermés.</p>
+              </div>
+            </div>
+            <div class="slide">
+              <img src="images/exposition-digestive.jpg" alt="Exposition par ingestion">
+              <div class="slide-caption">
+                <h3>Par ingestion</h3>
+                <p>Manger, boire ou fumer avec des mains souillées, ou consommer des aliments contaminés.</p>
+              </div>
+            </div>
+            <div class="slide">
+              <img src="images/exposition-environnement.jpg" alt="Contamination de l'environnement">
+              <div class="slide-caption">
+                <h3>Par l'environnement</h3>
+                <p>Eau, sol et air peuvent être pollués : familles et riverains sont aussi concernés.</p>
+              </div>
+            </div>
+          </div>
+
+          <button class="carousel-btn next" id="nextBtn" aria-label="Diapositive suivante">&#10095;</button>
+        </div>
+        <div class="carousel-dots" id="carouselDots"></div>
+      </div>
+    </section>
+
+    <!-- 2. Comment agissent-ils ? -->
+    <section class="section section-tint" id="action">
+      <div class="container">
+        <h2 class="section-title"><span class="num">2</span> Comment agissent-ils&nbsp;?</h2>
+
+        <div class="text-image">
+          <div class="text-block">
+            <p>Le système endocrinien produit des <strong>hormones</strong>, des messagers chimiques qui régulent la croissance, le métabolisme, la reproduction ou l'humeur. Chaque hormone se fixe sur un <strong>récepteur</strong> précis, comme une clé dans une serrure.</p>
+            <p>Les perturbateurs endocriniens interfèrent de trois façons :</p>
+            <ul class="check-list">
+              <li><strong>Mimer</strong> une hormone naturelle et activer le récepteur à tort.</li>
+              <li><strong>Bloquer</strong> le récepteur et empêcher l'hormone d'agir.</li>
+              <li><strong>Dérégler</strong> la production, le transport ou l'élimination des hormones.</li>
+            </ul>
+            <p>Ces effets peuvent apparaître à <strong>très faibles doses</strong> et parfois longtemps après l'exposition, ce qui les rend difficiles à détecter.</p>
+          </div>
+          <figure class="image-block">
+            <img src="images/mecanisme-hormonal.png" alt="Schéma du mécanisme d'action d'un perturbateur endocrinien">
+            <figcaption>Schéma : le perturbateur se fixe sur le récepteur à la place de l'hormone.</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. Effets sur l'organisme -->
+    <section class="section" id="effets">
+      <div class="container">
+        <h2 class="section-title"><span class="num">3</span> Les effets sur l'organisme</h2>
+        <p class="section-intro">Survolez ou touchez chaque effet pour en savoir plus.</p>
+
+        <div class="effects-stage">
+          <img src="images/agriculteur.png" alt="Agriculteur" class="effects-img">
+
+          <!-- --w = distance entre le bord et le point (à ajuster selon ta photo) -->
+          <div class="effect left"  style="top:8%;  --w:36%;" tabindex="0">
+            <span class="effect-label">Troubles neurologiques</span><span class="effect-line"></span><span class="effect-dot"></span>
+            <span class="effect-detail">Fatigue, troubles de la mémoire, maladies neurodégénératives.</span>
+          </div>
+          <div class="effect left"  style="top:34%; --w:33%;" tabindex="0">
+            <span class="effect-label">Troubles respiratoires</span><span class="effect-line"></span><span class="effect-dot"></span>
+            <span class="effect-detail">Irritations, asthme, gêne respiratoire liée à l'inhalation des produits.</span>
+          </div>
+          <div class="effect left"  style="top:62%; --w:34%;" tabindex="0">
+            <span class="effect-label">Cancers hormonodépendants</span><span class="effect-line"></span><span class="effect-dot"></span>
+            <span class="effect-detail">Risque accru de cancers de la prostate, des testicules ou du sein.</span>
+          </div>
+
+          <div class="effect right" style="top:14%; --w:36%;" tabindex="0">
+            <span class="effect-label">Troubles de la thyroïde</span><span class="effect-line"></span><span class="effect-dot"></span>
+            <span class="effect-detail">Dérèglement du métabolisme, fatigue, variations de poids.</span>
+          </div>
+          <div class="effect right" style="top:42%; --w:34%;" tabindex="0">
+            <span class="effect-label">Troubles de la fertilité</span><span class="effect-line"></span><span class="effect-dot"></span>
+            <span class="effect-detail">Baisse de la qualité du sperme, difficultés à concevoir, malformations.</span>
+          </div>
+          <div class="effect right" style="top:70%; --w:35%;" tabindex="0">
+            <span class="effect-label">Troubles cutanés</span><span class="effect-line"></span><span class="effect-dot"></span>
+            <span class="effect-detail">Dermatites, allergies et irritations au contact des produits.</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= VIDÉO EXPLICATIVE ================= -->
+    <section class="section section-tint" id="video-explicative">
+      <div class="container">
+        <h2 class="section-title">Vidéo explicative scientifique</h2>
+        <div class="video-box video-wide">
+          <!-- Remplace par ta vidéo : videos/explication.mp4 -->
+          <video controls preload="metadata" poster="images/poster-explication.jpg">
+            <source src="videos/explication.mp4" type="video/mp4">
+            Votre navigateur ne supporte pas la lecture de vidéos.
+          </video>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= CONSEILS ================= -->
+    <section class="section" id="conseils">
+      <div class="container">
+        <div class="frame frame-big">
+          <h2 class="frame-title center">Conseils pour réduire l'exposition</h2>
+
+          <figure class="image-block advice-schema">
+            <img src="images/schema-conseils.png" alt="Schéma des bonnes pratiques">
+            <figcaption>Schéma des bonnes pratiques</figcaption>
+          </figure>
+
+          <div class="advice-grid">
+            <article class="advice-card"><span class="icon">🧤</span><div><h3>Se protéger</h3><p>Gants, combinaison, masque adapté et lunettes pendant la préparation et l'épandage.</p></div></article>
+            <article class="advice-card"><span class="icon">🌬️</span><div><h3>Respecter les conditions</h3><p>Ne pas traiter par vent fort ; respecter les doses et les délais de rentrée dans les parcelles.</p></div></article>
+            <article class="advice-card"><span class="icon">🧼</span><div><h3>Se laver</h3><p>Se laver les mains et se doucher après le travail ; laver les vêtements de protection à part.</p></div></article>
+            <article class="advice-card"><span class="icon">🌱</span><div><h3>Alternatives</h3><p>Rotation des cultures, lutte biologique, désherbage mécanique, biocontrôle.</p></div></article>
+            <article class="advice-card advice-last"><span class="icon">📦</span><div><h3>Stocker et éliminer</h3><p>Local fermé et aéré ; rapporter emballages et produits non utilisés aux filières agréées.</p></div></article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ================= FOOT ================= -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <div class="footer-logo"><img src="images/Logo.jpeg" alt=""></div>
+        <h3>AgriSafe</h3>
+        <p>Projet de SVT – Prépa intégrée ingénieur.<br>Comprendre les perturbateurs endocriniens et protéger l'agriculture réunionnaise.</p>
+      </div>
+      <div>
+        <h3>Navigation</h3>
+        <ul>
+          <li><a href="#temoignage">Témoignage</a></li>
+          <li><a href="#science">Partie scientifique</a></li>
+          <li><a href="#effets">Effets</a></li>
+          <li><a href="#conseils">Conseils</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Sources</h3>
+        <ul>
+          <li>ANSES</li>
+          <li>INSERM</li>
+          <li>OMS</li>
+        </ul>
+        <p class="small">À compléter avec vos sources exactes.</p>
+      </div>
+    </div>
+    <div class="footer-bottom">&copy; 2026 AgriSafe – Projet scolaire – Réalisé par [vos noms]</div>
+  </footer>
+
+  <button class="to-top" id="toTop" aria-label="Retour en haut">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
