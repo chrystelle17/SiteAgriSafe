@@ -409,5 +409,7 @@ ul { list-style: none; }
 .photo-camarade strong { display: block; color: var(--blue-dark); }
 
 @media (max-width: 800px) {
+  .photo-camarade { width: 200px; }
+  .photo-camarade img { width: 200px; height: 200px; }
   .photo-camarade { float: none; margin: 0 auto 1rem; }
 }
