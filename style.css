@@ -383,3 +383,31 @@ ul { list-style: none; }
   .effect-label { background: none; color: var(--blue-dark); padding: 0; margin: 0; max-width: none; }
   .effect-detail { position: static; opacity: 1; transform: none; width: 100%; box-shadow: none; border: none; padding: 0.2rem 0 0; }
 }
+
+/* ---------- Photos des camarades ---------- */
+.equipe {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+.camarade {
+  width: 160px;
+  text-align: center;
+}
+.camarade img {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;          /* recadre la photo en carré sans la déformer */
+  border: 3px solid var(--line);
+  border-radius: 12px;        /* mets 50% pour une photo ronde */
+  background: #dfe8f3;
+  box-shadow: var(--shadow);
+}
+.camarade figcaption {
+  margin-top: 0.5rem;
+  line-height: 1.3;
+}
+.camarade strong { display: block; color: var(--blue-dark); }
+.camarade span { font-size: 0.85rem; color: var(--muted); }
