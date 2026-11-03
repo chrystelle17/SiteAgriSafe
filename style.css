@@ -387,7 +387,7 @@ ul { list-style: none; }
 
 /* ---------- Photo encadrée d'un camarade ---------- */
 .photo-camarade {
-  float: right;
+  float: top;
   width: 300px;
   margin: 0 0 1rem 1.5rem;
   text-align: center;
