@@ -1,0 +1,5 @@
+Place ici tes images avec ces noms :
+hero-bg.jpg (fond bleu du haut), logo.png (rond), poster-temoignage.jpg, poster-science.jpg,
+poster-explication.jpg, exposition-cutanee.jpg, exposition-respiratoire.jpg,
+exposition-digestive.jpg, exposition-environnement.jpg, mecanisme-hormonal.png,
+agriculteur.png (idealement detoure, fond transparent), schema-conseils.png
