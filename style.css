@@ -61,7 +61,7 @@ ul { list-style: none; }
 }
 
 .hero-overlay {
-  background: linear-gradient(160deg, rgba(19, 70, 216, 0.78), rgba(11, 42, 122, 0.82) 60%, rgba(23, 101, 60, 0.7));
+  background: background: rgba(0, 0, 0, 0.35);
 }
 
 
