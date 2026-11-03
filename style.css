@@ -55,7 +55,7 @@ ul { list-style: none; }
   color: var(--white);
   text-align: center;
   /* Remplace par ton image de fond : images/hero-bg.jpg */
-  background: url("images/hero-bg.jpg") center / cover no-repeat, var(--blue);
+  background: url("hero-bg.jpg") center / cover no-repeat, var(--blue);
   border-radius: 0 0 50% 50% / 0 0 14vw 14vw;
   overflow: hidden;
 }
